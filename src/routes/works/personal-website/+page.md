@@ -1,7 +1,7 @@
 ---
 title: Personal Website
 date: 2026-01-01
-displayDate: Jan 1
+displayDate: 1 Jan 2026
 ---
 
 # {title}

@@ -44,7 +44,7 @@
 		</div>
 
 		<!-- Navigation  -->
-		<nav class="justify-left flex gap-4 pb-8 text-[#1e66f5] dark:text-[#89b4fa]">
+		<nav class="justify-left flex gap-4 text-[#1e66f5] dark:text-[#89b4fa]">
 			<a href="/" class="hover:underline">home</a>
 			<a href="/works" class="hover:underline">works</a>
 			<a href="/connect" class="hover:underline">connect</a>
