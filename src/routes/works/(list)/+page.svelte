@@ -15,4 +15,14 @@
 			</div>
 		{/each}
 	</div>
+
+	<p>
+		(i'm currently still wriring about my other works, for now you can check my
+		<a
+			href="https://github.com/AgungAryansyah"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]">github</a
+		>)
+	</p>
 </div>
