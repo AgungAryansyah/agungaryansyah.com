@@ -15,10 +15,10 @@
 		</div>
 
 		<!-- Navigation  -->
-		<nav class="flex justify-center gap-4 text-blue-600">
+		<nav class="flex justify-center gap-4 pb-8 text-blue-600">
 			<a href="/" class="hover:underline">home</a>
 			<a href="/works" class="hover:underline">works</a>
-			<a href="/contact" class="hover:underline">contact</a>
+			<a href="/connect" class="hover:underline">connect</a>
 		</nav>
 
 		<!-- Page content goes here -->
