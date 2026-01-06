@@ -17,7 +17,7 @@
 	</div>
 
 	<p>
-		(i'm currently still wriring about my other works, for now you can check my
+		(*i'm currently still wriring about my other works, for now you can check my
 		<a
 			href="https://github.com/AgungAryansyah"
 			target="_blank"
