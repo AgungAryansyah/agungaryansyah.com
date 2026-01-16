@@ -23,8 +23,11 @@
 
 	<p class="mb-4">
 		Alongside that, I’ve spent time teaching and mentoring through community events and as a
-		Teaching Assistant at my university, covering topics like Object-Oriented Programming and Data
-		Structures & Algorithms.
+		<a
+			href="/works-and-experience/algorithm-and-data-structures-teaching-assistant"
+			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]">Teaching Assistant</a
+		>
+		at my university, covering topics like Object-Oriented Programming and Data Structures & Algorithms.
 	</p>
 
 	<p class="">
