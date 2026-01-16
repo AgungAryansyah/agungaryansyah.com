@@ -17,7 +17,7 @@
 	<div class="mx-auto max-w-2xl space-y-8">
 		<!-- Logo/Name  -->
 		<div class="flex justify-between">
-			<h1 class="text-4xl font-bold text-[#5c5f77] dark:text-[#cdd6f4]">Agung Aryansyah.</h1>
+			<h1 class="text-4xl font-bold text-[#5c5f77] dark:text-[#cdd6f4]">Agung.</h1>
 			<button onclick={toggleTheme} class="text-xl text-[#5c5f77] dark:text-[#cdd6f4]">
 				<!-- dark icon -->
 				<svg
@@ -45,7 +45,7 @@
 		</div>
 
 		<!-- Navigation  -->
-		<nav class="justify-left flex gap-4 text-[#1e66f5] dark:text-[#89b4fa]">
+		<nav class="justify-left flex gap-6 text-[#1e66f5] dark:text-[#89b4fa]">
 			<a
 				href="/"
 				class="hover:underline"
@@ -53,9 +53,10 @@
 				aria-current={$page.url.pathname === '/' ? 'page' : undefined}>home</a
 			>
 			<a
-				href="/works"
+				href="/works-and-experience"
 				class="hover:underline"
-				class:underline={$page.url.pathname.startsWith('/works')}>works</a
+				class:underline={$page.url.pathname.startsWith('/works-and-experience')}
+				>works & experience</a
 			>
 			<a href="/connect" class="hover:underline" class:underline={$page.url.pathname === '/connect'}
 				>connect</a
