@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import { theme } from '$lib/stores/theme';
+	import { page } from '$app/stores';
 
 	let { children } = $props();
 
@@ -45,9 +46,20 @@
 
 		<!-- Navigation  -->
 		<nav class="justify-left flex gap-4 text-[#1e66f5] dark:text-[#89b4fa]">
-			<a href="/" class="hover:underline">home</a>
-			<a href="/works" class="hover:underline">works</a>
-			<a href="/connect" class="hover:underline">connect</a>
+			<a
+				href="/"
+				class="hover:underline"
+				class:underline={$page.url.pathname === '/'}
+				aria-current={$page.url.pathname === '/' ? 'page' : undefined}>home</a
+			>
+			<a
+				href="/works"
+				class="hover:underline"
+				class:underline={$page.url.pathname.startsWith('/works')}>works</a
+			>
+			<a href="/connect" class="hover:underline" class:underline={$page.url.pathname === '/connect'}
+				>connect</a
+			>
 		</nav>
 
 		<!-- Page content goes here -->
