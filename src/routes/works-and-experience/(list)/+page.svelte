@@ -16,8 +16,10 @@
 			<h3 class="mb-2 text-lg font-semibold">{group.year}</h3>
 			<div class="space-y-3">
 				{#each group.works as work (work.slug)}
-					<div class="flex gap-4">
-						<span class="w-20 text-[#4c4f69] dark:text-[#cdd6f4]">{work.displayDate}</span>
+					<div class="flex">
+						<span class="w-20 flex-none whitespace-nowrap text-[#4c4f69] dark:text-[#cdd6f4]"
+							>{work.displayDate}</span
+						>
 						<a
 							href="/works-and-experience/{work.slug}"
 							class="text-[#1e66f5] no-underline hover:underline dark:text-[#89b4fa]"

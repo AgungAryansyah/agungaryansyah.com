@@ -1,7 +1,7 @@
 ---
 title: Intern at a Labolatory
 date: 2025-09-01
-displayDate: Sep - Oct
+displayDate: Sep-Oct
 ---
 
 # {title}

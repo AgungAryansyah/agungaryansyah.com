@@ -1,7 +1,7 @@
 ---
-title: Algorithms and Data Structures Teaching Assistant 
+title: Algorithms & Data Structures Teaching Assistant 
 date: 2025-09-01
-displayDate: Sep - Dec
+displayDate: Sep-Dec
 ---
 
 <script>
