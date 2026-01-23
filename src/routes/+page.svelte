@@ -17,8 +17,19 @@
 
 	<p class="mb-4">
 		I started with web and backend development and gained hands-on experience through a backend
-		internship, then moved into intelligent systems through lab work and research-oriented
-		internships to get real exposure to applied research.
+		internship, then moved into <a
+			href="https://www.instagram.com/is.lab.filkom/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]">intelligent systems</a
+		>
+		through lab work and
+		<a
+			href="/works-and-experience/intern-at-a-labolatory"
+			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]"
+			>research-oriented internships
+		</a>
+		to get real exposure to applied research.
 	</p>
 
 	<p class="mb-4">
