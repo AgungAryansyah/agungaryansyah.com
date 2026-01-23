@@ -16,8 +16,13 @@
 	</p>
 
 	<p class="mb-4">
-		I started with web and backend development and gained hands-on experience through a backend
-		internship, then moved into <a
+		I started with web and backend development and gained hands-on experience through a
+		<a
+			href="/works-and-experience/backend-developer-intern-at-bcc"
+			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]"
+			>backend internships
+		</a>, then moved into
+		<a
 			href="https://www.instagram.com/is.lab.filkom/"
 			target="_blank"
 			rel="noopener noreferrer"
