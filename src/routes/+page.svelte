@@ -18,7 +18,7 @@
 	<p class="mb-4">
 		I started with web and backend development and gained hands-on experience through a
 		<a
-			href="/works-and-experience/backend-developer-intern-at-bcc"
+			href="/writings/backend-developer-intern-at-bcc"
 			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]"
 			>backend internships
 		</a>, then moved into
@@ -30,7 +30,7 @@
 		>
 		through lab work and
 		<a
-			href="/works-and-experience/intern-at-a-labolatory"
+			href="/writings/intern-at-a-labolatory"
 			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]"
 			>research-oriented internships
 		</a>
@@ -40,7 +40,7 @@
 	<p class="mb-4">
 		Alongside that, I’ve spent time teaching and mentoring through community events and as a
 		<a
-			href="/works-and-experience/algorithm-and-data-structures-teaching-assistant"
+			href="/writings/algorithm-and-data-structures-teaching-assistant"
 			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]">Teaching Assistant</a
 		>
 		at my university, covering topics like Object-Oriented Programming and Data Structures & Algorithms.

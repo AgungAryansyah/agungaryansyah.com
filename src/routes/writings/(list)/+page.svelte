@@ -21,7 +21,7 @@
 							>{work.displayDate}</span
 						>
 						<a
-							href="/works-and-experience/{work.slug}"
+							href="/writings/{work.slug}"
 							class="text-[#1e66f5] no-underline hover:underline dark:text-[#89b4fa]"
 						>
 							{work.title}

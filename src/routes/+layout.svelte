@@ -53,10 +53,10 @@
 				aria-current={$page.url.pathname === '/' ? 'page' : undefined}>home</a
 			>
 			<a
-				href="/works-and-experience"
+				href="/writings"
 				class="hover:underline"
-				class:underline={$page.url.pathname.startsWith('/works-and-experience')}
-				>works & experience</a
+				class:underline={$page.url.pathname.startsWith('/writings')}
+				>writings</a
 			>
 			<a href="/connect" class="hover:underline" class:underline={$page.url.pathname === '/connect'}
 				>connect</a
