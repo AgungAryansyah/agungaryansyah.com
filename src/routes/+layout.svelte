@@ -58,6 +58,11 @@
 				class:underline={$page.url.pathname.startsWith('/writings')}
 				>writings</a
 			>
+			<a
+				href="/experience"
+				class="hover:underline"
+				class:underline={$page.url.pathname === '/experience'}>experience</a
+			>
 			<a href="/connect" class="hover:underline" class:underline={$page.url.pathname === '/connect'}
 				>connect</a
 			>
