@@ -23,23 +23,23 @@ body {
 }
 
 :root {
-	--c-bg: #f5eedd;
-	--c-body: #2d4673;
-	--c-heading: #16294e;
-	--c-link: #284d78;
-	--c-muted: #9a8e76;
-	--c-border: #e3d9c0;
-	--c-accent: #c8482b;
+	--c-bg: #fbf1c7;
+	--c-body: #3c3836;
+	--c-heading: #282828;
+	--c-link: #076678;
+	--c-muted: #7c6f64;
+	--c-border: #d5c4a1;
+	--c-accent: #9d0006;
 }
 
 .dark {
-	--c-bg: #06182f;
-	--c-body: #caddf4;
-	--c-heading: #eef4fc;
-	--c-link: #8fb9de;
-	--c-muted: #7191b8;
-	--c-border: #122845;
-	--c-accent: #e0552f;
+	--c-bg: #1e1e2e;
+	--c-body: #cdd6f4;
+	--c-heading: #cdd6f4;
+	--c-link: #89b4fa;
+	--c-muted: #a6adc8;
+	--c-border: #45475a;
+	--c-accent: #f38ba8;
 }
 
 .prose a {
