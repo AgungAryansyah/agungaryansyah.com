@@ -17,12 +17,12 @@
 			<div class="space-y-3">
 				{#each group.works as work (work.slug)}
 					<div class="flex">
-						<span class="w-20 flex-none whitespace-nowrap text-[#4c4f69] dark:text-[#cdd6f4]"
+						<span class="w-20 flex-none whitespace-nowrap text-[#2d4673] dark:text-[#caddf4]"
 							>{work.displayDate}</span
 						>
 						<a
 							href="/writings/{work.slug}"
-							class="text-[#1e66f5] no-underline hover:underline dark:text-[#89b4fa]"
+							class="text-[#284d78] no-underline hover:underline dark:text-[#8fb9de]"
 						>
 							{work.title}
 						</a>
@@ -38,7 +38,7 @@
 			href="https://github.com/AgungAryansyah"
 			target="_blank"
 			rel="noopener noreferrer"
-			class="text-[#1e66f5] hover:underline dark:text-[#89b4fa]">github</a
+			class="text-[#284d78] hover:underline dark:text-[#8fb9de]">github</a
 		>)
 	</p>
 </div>

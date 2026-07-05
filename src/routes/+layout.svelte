@@ -13,12 +13,12 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<div class="min-h-screen bg-[#eff1f5] px-4 py-12 dark:bg-[#1e1e2e]">
+<div class="min-h-screen bg-[#f5eedd] px-4 py-12 dark:bg-[#06182f]">
 	<div class="mx-auto max-w-2xl space-y-8">
 		<!-- Logo/Name  -->
 		<div class="flex justify-between">
-			<h1 class="text-4xl font-bold text-[#5c5f77] dark:text-[#cdd6f4]">Agung.</h1>
-			<button onclick={toggleTheme} class="text-xl text-[#5c5f77] dark:text-[#cdd6f4]">
+			<h1 class="text-4xl font-bold text-[#16294e] dark:text-[#eef4fc]">Agung.</h1>
+			<button onclick={toggleTheme} class="text-xl text-[#16294e] dark:text-[#eef4fc]">
 				<!-- dark icon -->
 				<svg
 					class="block h-6 w-6 dark:hidden"
@@ -45,7 +45,7 @@
 		</div>
 
 		<!-- Navigation  -->
-		<nav class="justify-left flex gap-6 text-[#1e66f5] dark:text-[#89b4fa]">
+		<nav class="justify-left flex gap-6 text-[#284d78] dark:text-[#8fb9de]">
 			<a
 				href="/"
 				class="hover:underline"
