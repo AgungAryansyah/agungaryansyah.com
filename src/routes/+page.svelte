@@ -2,7 +2,7 @@
 	import agung1 from '$lib/assets/agung1.webp';
 </script>
 
-<div class="leading-relaxed text-body">
+<div class="leading-relaxed text-body stagger-children">
 	<img src={agung1} alt="Agung" class="float-left mr-4 h-28 w-28 rounded-lg" />
 
 	<p class="mb-4">
