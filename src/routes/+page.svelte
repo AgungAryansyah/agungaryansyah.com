@@ -2,7 +2,7 @@
 	import agung1 from '$lib/assets/agung1.webp';
 </script>
 
-<div class="leading-relaxed text-[#2d4673] dark:text-[#caddf4]">
+<div class="leading-relaxed text-body">
 	<img src={agung1} alt="Agung" class="float-left mr-4 h-28 w-28 rounded-lg" />
 
 	<p class="mb-4">
@@ -11,7 +11,7 @@
 			href="https://id.wikipedia.org/wiki/Universitas_Brawijaya"
 			target="_blank"
 			rel="noopener noreferrer"
-			class="text-[#284d78] hover:underline dark:text-[#8fb9de]">Universitas Brawijaya</a
+			class="text-link hover:underline">Universitas Brawijaya</a
 		> with a strong interest in backend development, machine learning and open source software.
 	</p>
 
@@ -19,19 +19,19 @@
 		I started with web and backend development and gained hands-on experience through a
 		<a
 			href="/writings/backend-developer-intern-at-bcc"
-			class="text-[#284d78] hover:underline dark:text-[#8fb9de]"
+			class="text-link hover:underline"
 			>backend internships
 		</a>, then moved into
 		<a
 			href="https://www.instagram.com/is.lab.filkom/"
 			target="_blank"
 			rel="noopener noreferrer"
-			class="text-[#284d78] hover:underline dark:text-[#8fb9de]">intelligent systems</a
+			class="text-link hover:underline">intelligent systems</a
 		>
 		through lab work and
 		<a
 			href="/writings/intern-at-a-labolatory"
-			class="text-[#284d78] hover:underline dark:text-[#8fb9de]"
+			class="text-link hover:underline"
 			>research-oriented internships
 		</a>
 		to get real exposure to applied research.
@@ -41,7 +41,7 @@
 		Alongside that, I’ve spent time teaching and mentoring through community events and as a
 		<a
 			href="/writings/algorithm-and-data-structures-teaching-assistant"
-			class="text-[#284d78] hover:underline dark:text-[#8fb9de]">Teaching Assistant</a
+			class="text-link hover:underline">Teaching Assistant</a
 		>
 		at my university, covering topics like Object-Oriented Programming and Data Structures & Algorithms.
 	</p>
