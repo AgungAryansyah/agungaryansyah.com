@@ -4,7 +4,7 @@
 	let { data }: { data: { experiences: Experience[] } } = $props();
 </script>
 
-<div class="relative mx-auto max-w-2xl">
+<div class="relative">
 	<div
 		class="absolute left-3 top-0 bottom-0 w-0.5 bg-border md:left-1/2 md:-translate-x-1/2"
 	></div>
