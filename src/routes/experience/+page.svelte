@@ -10,7 +10,7 @@
 	></div>
 
 	{#each data.experiences as exp, i}
-		<div class="relative pb-8 md:-mt-8 first:md:mt-0 last:pb-0">
+		<div class="relative pb-8 last:pb-0">
 			<div
 				class="absolute left-[6px] top-1 h-3 w-3 rounded-full border-2 border-link bg-bg md:left-1/2 md:-translate-x-1/2"
 			></div>
