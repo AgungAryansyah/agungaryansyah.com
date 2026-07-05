@@ -39,7 +39,7 @@
 									src={img.src}
 									alt={img.alt}
 									loading="lazy"
-									class="h-20 w-auto rounded object-cover"
+									class="h-32 w-auto rounded object-cover"
 								/>
 							{/each}
 						</div>
