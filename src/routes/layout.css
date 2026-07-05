@@ -10,6 +10,10 @@ body {
 	font-family: 'Merriweather', Georgia, ui-serif, serif;
 }
 
+* {
+	transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
 @theme {
 	--font-family-sans: ui-sans-serif, system-ui, sans-serif;
 	--font-family-serif: 'Merriweather', Georgia, ui-serif, serif;
