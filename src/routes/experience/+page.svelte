@@ -54,7 +54,7 @@
 									href={link.url}
 									target="_blank"
 									rel="noopener noreferrer"
-									class="text-sm text-link hover:underline"
+									class="text-sm text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link"
 								>
 									{link.text}
 								</a>

@@ -11,7 +11,7 @@
 			href="https://id.wikipedia.org/wiki/Universitas_Brawijaya"
 			target="_blank"
 			rel="noopener noreferrer"
-			class="text-link hover:underline">Universitas Brawijaya</a
+			class="text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link">Universitas Brawijaya</a
 		> with a strong interest in backend development, machine learning and open source software.
 	</p>
 
@@ -19,19 +19,19 @@
 		I started with web and backend development and gained hands-on experience through a
 		<a
 			href="/writings/backend-developer-intern-at-bcc"
-			class="text-link hover:underline"
+			class="text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link"
 			>backend internships
 		</a>, then moved into
 		<a
 			href="https://www.instagram.com/is.lab.filkom/"
 			target="_blank"
 			rel="noopener noreferrer"
-			class="text-link hover:underline">intelligent systems</a
+			class="text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link">intelligent systems</a
 		>
 		through lab work and
 		<a
 			href="/writings/intern-at-a-labolatory"
-			class="text-link hover:underline"
+			class="text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link"
 			>research-oriented internships
 		</a>
 		to get real exposure to applied research.
@@ -41,7 +41,7 @@
 		Alongside that, I’ve spent time teaching and mentoring through community events and as a
 		<a
 			href="/writings/algorithm-and-data-structures-teaching-assistant"
-			class="text-link hover:underline">Teaching Assistant</a
+			class="text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link">Teaching Assistant</a
 		>
 		at my university, covering topics like Object-Oriented Programming and Data Structures & Algorithms.
 	</p>

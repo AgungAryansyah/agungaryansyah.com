@@ -41,3 +41,14 @@ body {
 	--c-border: #122845;
 	--c-accent: #e0552f;
 }
+
+.prose a {
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-color: var(--c-accent);
+	text-underline-offset: 2px;
+}
+
+.prose a:hover {
+	text-decoration-color: var(--c-link);
+}

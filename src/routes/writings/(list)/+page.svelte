@@ -22,7 +22,7 @@
 						>
 						<a
 							href="/writings/{work.slug}"
-							class="text-link no-underline hover:underline"
+							class="text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link"
 						>
 							{work.title}
 						</a>
@@ -38,7 +38,7 @@
 			href="https://github.com/AgungAryansyah"
 			target="_blank"
 			rel="noopener noreferrer"
-			class="text-link hover:underline">github</a
+			class="text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link">github</a
 		>)
 	</p>
 </div>
