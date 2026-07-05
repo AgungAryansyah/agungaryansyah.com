@@ -45,7 +45,7 @@
 		</div>
 
 		<!-- Navigation  -->
-		<nav class="justify-left flex gap-6 font-semibold text-link">
+		<nav class="justify-left flex gap-6 font-semibold text-link border-b border-border pb-2">
 			<a
 				href="/"
 				class="hover:underline"
