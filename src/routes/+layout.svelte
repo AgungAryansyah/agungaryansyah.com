@@ -45,7 +45,7 @@
 		</div>
 
 		<!-- Navigation  -->
-		<nav class="justify-left flex gap-6 text-link font-semibold">
+		<nav class="justify-left flex gap-6 font-semibold text-link">
 			<a
 				href="/"
 				class="hover:underline"
@@ -53,15 +53,14 @@
 				aria-current={$page.url.pathname === '/' ? 'page' : undefined}>home</a
 			>
 			<a
-				href="/writings"
-				class="hover:underline"
-				class:underline={$page.url.pathname.startsWith('/writings')}
-				>writings</a
-			>
-			<a
 				href="/experience"
 				class="hover:underline"
 				class:underline={$page.url.pathname === '/experience'}>experience</a
+			>
+			<a
+				href="/writings"
+				class="hover:underline"
+				class:underline={$page.url.pathname.startsWith('/writings')}>writings</a
 			>
 			<a href="/connect" class="hover:underline" class:underline={$page.url.pathname === '/connect'}
 				>connect</a
