@@ -6,6 +6,10 @@
 
 	let { children } = $props();
 
+	$effect(() => {
+		document.body.classList.add('animation-ready');
+	});
+
 	function toggleTheme() {
 		theme.update((t) => (t === 'light' ? 'dark' : 'light'));
 	}
@@ -14,7 +18,7 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <div class="min-h-screen bg-bg px-4 py-12">
-	<div class="mx-auto max-w-3xl space-y-8">
+	<div class="mx-auto max-w-3xl space-y-8 fade-stagger">
 		<!-- Logo/Name  -->
 		<div class="flex justify-between">
 			<h1 class="text-4xl font-bold text-heading">Agung.</h1>

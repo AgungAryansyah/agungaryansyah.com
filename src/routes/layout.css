@@ -56,3 +56,27 @@ body {
 .prose a:hover {
 	text-decoration-color: var(--c-link);
 }
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+body.animation-ready .fade-stagger > *:nth-child(1) {
+	animation: fade-in 0.5s ease backwards;
+	animation-delay: 0.2s;
+}
+
+body.animation-ready .fade-stagger > *:nth-child(2) {
+	animation: fade-in 0.5s ease backwards;
+	animation-delay: 0.35s;
+}
+
+body.animation-ready .fade-stagger > *:nth-child(3) {
+	animation: fade-in 0.5s ease backwards;
+	animation-delay: 0.5s;
+}
