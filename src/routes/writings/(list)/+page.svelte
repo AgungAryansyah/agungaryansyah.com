@@ -4,7 +4,7 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
-<div class="space-y-6">
+<div class="space-y-6 stagger-children">
 	<script lang="ts">
 		import type { PageData } from './$types';
 
