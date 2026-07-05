@@ -1,4 +1,4 @@
-<div class="space-y-4 leading-relaxed">
+<div class="space-y-4 leading-relaxed stagger-children">
 	<p class="text-body">
 		Feel free to reach out to me through any of the following platforms:
 	</p>
