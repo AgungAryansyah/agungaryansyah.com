@@ -34,16 +34,39 @@
 					</p>
 
 					{#if exp.images}
-						<div class="mt-3 flex flex-wrap gap-2">
-							{#each exp.images as img}
+						{#if exp.layout === 'side-stack'}
+							<div class="mt-3 grid grid-cols-[1fr_auto] grid-rows-[auto_auto] gap-2">
 								<img
-									src={img.src}
-									alt={img.alt}
+									src={exp.images[0].src}
+									alt={exp.images[0].alt}
 									loading="lazy"
-									class="h-32 w-auto rounded object-cover"
+									class="col-start-1 row-start-1 h-32 w-auto rounded-lg object-contain"
 								/>
-							{/each}
-						</div>
+								<img
+									src={exp.images[1].src}
+									alt={exp.images[1].alt}
+									loading="lazy"
+									class="col-start-1 row-start-2 h-32 w-auto rounded-lg object-contain"
+								/>
+								<img
+									src={exp.images[2].src}
+									alt={exp.images[2].alt}
+									loading="lazy"
+									class="col-start-2 row-span-2 h-64 w-auto rounded-lg object-contain"
+								/>
+							</div>
+						{:else}
+							<div class="mt-3 flex flex-wrap gap-2">
+								{#each exp.images as img}
+									<img
+										src={img.src}
+										alt={img.alt}
+										loading="lazy"
+										class="h-32 w-auto rounded-lg object-cover"
+									/>
+								{/each}
+							</div>
+						{/if}
 					{/if}
 
 					{#if exp.links}

@@ -19,6 +19,7 @@ interface RawMetadata {
 	description: string;
 	images?: { src: string; alt: string }[];
 	links?: { text: string; url: string }[];
+	layout?: string;
 }
 
 const modules = import.meta.glob<{ metadata: RawMetadata }>(
