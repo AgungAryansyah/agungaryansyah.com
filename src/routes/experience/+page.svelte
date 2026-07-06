@@ -6,16 +6,16 @@
 
 <div class="relative stagger-children">
 	<div
-		class="absolute left-3 top-0 bottom-0 w-0.5 bg-border md:left-1/2 md:-translate-x-1/2"
+		class="absolute left-3 top-0 bottom-0 w-0.5 bg-border md:left-[42%] md:-translate-x-1/2"
 	></div>
 
 	{#each data.experiences as exp, i}
 		<div class="relative pb-8 last:pb-0">
 			<div
-				class="absolute left-[6px] top-1 h-3 w-3 rounded-full border-2 border-link bg-bg md:left-1/2 md:-translate-x-1/2"
+				class="absolute left-[6px] top-1 h-3 w-3 rounded-full border-2 border-link bg-bg md:left-[42%] md:-translate-x-1/2"
 			></div>
 
-			<div class="pl-8 md:grid md:grid-cols-[1fr_auto_1fr] md:gap-6 md:pl-0">
+			<div class="pl-8 md:grid md:grid-cols-[0.85fr_auto_1.15fr] md:gap-6 md:pl-0">
 				<div class="md:text-right">
 					<span class="text-sm text-muted">{exp.period}</span>
 					<h3 class="text-lg font-semibold text-heading">
@@ -35,7 +35,7 @@
 
 					{#if exp.images}
 						{#if exp.layout === 'side-stack'}
-							<div class="mt-3 grid grid-cols-[1fr_auto] grid-rows-[auto_auto] gap-2">
+							<div class="mt-3 grid w-fit grid-cols-[auto_auto] grid-rows-[auto_auto] gap-2">
 								<img
 									src={exp.images[0].src}
 									alt={exp.images[0].alt}
