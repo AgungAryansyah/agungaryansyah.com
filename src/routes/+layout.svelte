@@ -1,6 +1,6 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/agung1.webp';
 	import { theme } from '$lib/stores/theme';
 	import { page } from '$app/stores';
 
