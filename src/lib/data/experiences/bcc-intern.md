@@ -1,9 +1,9 @@
 ---
 title: Backend Developer Intern
-organization: BCC FILKOM UB
+organization: Basic Computing Community, Universitas Brawijaya
 period: Feb–Mar 2025
 sortDate: 2025-02-01
-description: Developed backend services for AgriBoost, an agriculture platform connecting farmers with buyers. Built REST APIs with Node.js and PostgreSQL, implemented authentication and wrote integration tests.
+description: Built a backend system in Golang using the Fiber framework, Docker, and PostgreSQL. Implemented authentication, authorization, and rate limiting to improve security and stability. Integrated Midtrans payment gateway to enable seamless transactions.
 links:
   - text: source
     url: https://github.com/AgungAryansyah/AgriBoost-backend

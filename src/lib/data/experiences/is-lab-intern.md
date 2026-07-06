@@ -1,9 +1,9 @@
 ---
-title: Intelligent Systems Lab Intern
-organization: IS Lab, FILKOM UB
+title: Intelligent Systems Laboratory Intern
+organization: Intelligent Systems Laboratory, Universitas Brawijaya
 period: Sep–Oct 2025
 sortDate: 2025-09-01
-description: Completed a two-month research internship focused on NLP and deep learning. Built a spam detection system with DistilBERT, then co-developed a multi-input neural network using BioBERT to auto-grade Wikipedia medical articles across six quality tiers. Scraped and curated a dataset of 51,890 articles from the English Wikipedia dump.
+description: Built a spam detection system using DistilBERT transformer model, fine-tuning the pre-trained language model for binary text classification. Created an automated Wikipedia medical article quality grading system using BioBERT (dmis-lab/biobert-v1.1), achieving 83.29% training accuracy and 0.87 ROC-AUC score on a dataset of 51,890 medical articles. Implemented multi-input neural network architecture combining BioBERT embeddings with tabular features, classifying articles into 6 quality categories (Stub, Start, C, B, GA, FA). Gained hands-on experience with PyTorch, Transformers library, and deep learning optimization techniques.
 images:
   - src: is-1
     alt: Dataset class distribution
