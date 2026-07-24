@@ -5,7 +5,7 @@
 
 	<div class="space-y-2">
 		<a
-			href="mailto:agungaryansyah@student.ub.ac.id"
+			href="mailto:agungaryansyah@proton.me"
 			class="block text-link font-semibold underline decoration-accent decoration-1 underline-offset-2 hover:decoration-link">email</a
 		>
 		<a
